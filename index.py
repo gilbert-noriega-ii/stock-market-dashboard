@@ -338,3 +338,22 @@ def fin_report(sym):
 
 if __name__ == '__main__':
     app.run_server()
+
+
+# These libraries need to be installed before moving forward
+# this is for historical market data
+# pip install yfinance
+# this is for webscraping
+# pip install beautifulsoup4
+# this is for twitter to download free options order flow data
+# pip install tweepy
+# this is for cleaning tweets that are downloaded
+# pip install texthero
+# this is for reddit and is used to scrape new posts from the subreddit WallStreet Bets
+# pip install praw
+# this is for layouts and callbacks
+#The layout is made up of a tree of components that describe what the application looks like and how users experience the content.
+#Callbacks make the Dash apps interactive. Callbacks are Python functions that are automatically called whenever an input property changes.
+# pip install dash
+# this is to make it easier to design the app layout
+# pip install dash-bootstrap-components
